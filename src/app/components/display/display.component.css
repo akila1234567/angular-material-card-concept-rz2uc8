@@ -1,0 +1,30 @@
+p {
+  font-family: Lato;
+}
+/* .flex-container {
+  background: #5448c8;
+  padding: 50px 50px 50px 50px;
+  box-sizing: border-box;
+
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  color: aliceblue;
+}
+.uparrow {
+  color: #5448c8;
+}
+.downarrow {
+  color: #f36e6e;
+} */
+
+.divider-class {
+  height: 50px;
+  padding-right: 10;
+  width: 0px !important;
+}
+.par-card {
+  background-color: #f1efef;
+  min-width: 180px;
+  height: 110px;
+}

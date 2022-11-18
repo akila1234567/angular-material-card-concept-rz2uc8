@@ -1,0 +1,72 @@
+$color-medium-emphasis: rgba(0, 0, 0, 0.6);
+$card-padding: 16px !default;
+$card-border-radius: 4px !default;
+$card-header-size: 40px !default;
+
+.card {
+  margin: 16px;
+  display: block;
+  position: relative;
+  padding: $card-padding;
+  border-radius: $card-border-radius;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+.card-title {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 30px;
+  align-items: center;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.card-header {
+  display: block;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  margin: 0
+}
+
+.card-content {
+  display: block;
+}
+
+.card-item {
+  display: flex;
+  padding: 16px 0;
+}
+
+.card-item-label {
+  padding: 0px;
+  margin: 0px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: $color-medium-emphasis;
+  font-weight: 500;
+  font-size: 10px;
+}
+
+.card-item-subject {
+  padding: 0px;
+  margin: 0px;
+  color: rgba(0, 0, 0, 0.87);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.card-item-content {
+  padding: 0px;
+  margin: 0px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: $color-medium-emphasis;
+}
+

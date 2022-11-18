@@ -1,0 +1,32 @@
+p {
+  font-family: Lato;
+}
+.flex-container {
+  background: #6dd0a5;
+  /*   padding: 50px 50px 50px 50px;
+ */
+  box-sizing: border-box;
+  /*   border-left: 25px solid #5243aa;
+  min-height: 150px; */
+  display: flex;
+  position: absolute;
+  border-radius: 50%;
+  /*   min-width: 20px;
+  min-height: 20px; */
+  padding: 25px;
+  text-align: center;
+  line-height: 1;
+  font-weight: bolder;
+  color: aliceblue;
+}
+.uparrow {
+  color: #6dd0a5;
+}
+.downarrow {
+  color: #f36e6e;
+}
+.par-card {
+  background-color: #f1efef;
+  min-width: 180px;
+  height: 110px;
+}

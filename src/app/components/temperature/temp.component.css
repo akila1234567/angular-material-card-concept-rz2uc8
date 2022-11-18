@@ -1,0 +1,26 @@
+p {
+  font-family: Lato;
+}
+.flex-container {
+  background: #5448c8;
+  box-sizing: border-box;
+  display: flex;
+  position: absolute;
+  border-radius: 50%;
+  padding: 25px;
+  text-align: left;
+  line-height: 1;
+  font-weight: bolder;
+  color: aliceblue;
+}
+.uparrow {
+  color: #5448c8;
+}
+.downarrow {
+  color: #f36e6e;
+}
+.par-card {
+  background-color: #f1efef;
+  min-width: 180px;
+  height: 110px;
+}
