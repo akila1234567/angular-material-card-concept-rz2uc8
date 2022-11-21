@@ -20,7 +20,8 @@ p {
   color: #f36e6e;
 }
 .par-card {
-  background-color: #f1efef;
+  box-shadow: none;
+  background-color: #f4f4f4;
   min-width: 180px;
   height: 110px;
 }
@@ -28,8 +29,11 @@ p {
 .on {
   background: #6dd0a5;
   margin-bottom: 18px;
+  margin-left: -4px;
   color: white;
   border-radius: 6px;
-  width: 45px;
+  width: 42px;
   text-align: center;
+  height: 21px;
+  margin-top: 9px;
 }
