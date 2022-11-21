@@ -1,5 +1,5 @@
 p {
-  font-family: Lato;
+  font-family: system-ui;
 }
 .flex-container {
   background: #6dd0a5;
@@ -26,7 +26,8 @@ p {
   color: #f36e6e;
 }
 .par-card {
-  background-color: #f1efef;
+  box-shadow: none;
+  background-color: #f4f4f4;
   min-width: 180px;
   height: 110px;
 }
