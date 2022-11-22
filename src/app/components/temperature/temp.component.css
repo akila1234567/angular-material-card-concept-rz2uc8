@@ -1,7 +1,9 @@
 p {
-  font-family: Lato;
+  font-family: system-ui;
 }
 .flex-container {
+  height: 75px;
+  width: 75px;
   background: #5448c8;
   box-sizing: border-box;
   display: flex;
