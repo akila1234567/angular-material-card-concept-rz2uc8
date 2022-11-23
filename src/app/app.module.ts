@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
@@ -18,9 +19,10 @@ import { AudioComponent } from './components/audio/audio.component';
 import { TempComponent } from './components/temperature/temp.component';
 import { DisplayComponent } from './components/display/display.component';
 import { LightComponent } from './components/light/light.component';
+import { DigispaceServiceService } from './digispace-service.service';
 
 @NgModule({
-  imports: [BrowserModule, FormsModule, MaterialModule],
+  imports: [BrowserModule, FormsModule, MaterialModule, HttpClientModule],
   declarations: [
     AppComponent,
     HelloComponent,
@@ -37,5 +39,6 @@ import { LightComponent } from './components/light/light.component';
     LightComponent,
   ],
   bootstrap: [AppComponent, AirComponent],
+  providers: [DigispaceServiceService],
 })
 export class AppModule {}
