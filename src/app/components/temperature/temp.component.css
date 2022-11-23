@@ -2,6 +2,7 @@ p {
   font-family: system-ui;
 }
 .flex-container {
+  font-size: 31px;
   height: 75px;
   width: 75px;
   background: #5448c8;
@@ -9,7 +10,7 @@ p {
   display: flex;
   position: absolute;
   border-radius: 50%;
-  padding: 25px;
+  padding: 21px 13px;
   text-align: left;
   line-height: 1;
   font-weight: bolder;
